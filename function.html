@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JavaScript Function Example</title>
+        <link rel="stylesheet" href="app.css" />
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <main class="srikanth">
+            <div class="hero">
+                <img src="image.jpg" alt="Decorative illustration" />
+                <div class="title-wrap">
+                    <p class="eyebrow">Interactive JavaScript</p>
+                    <h1>Function Examples</h1>
+                </div>
+            </div>
+
+            <section class="panel">
+                <h2>Greet the user</h2>
+                <div class="field-group">
+                    <label for="name">Enter your name</label>
+                    <input type="text" id="name" placeholder="Type your name" />
+                </div>
+                <button type="button" onclick="greetuser()">Greet</button>
+            </section>
+
+            <section class="panel">
+                <h2>Add numbers</h2>
+                <div class="calculator-row">
+                    <div class="field-group">
+                        <label for="num1">Number 1</label>
+                        <input type="number" id="num1" placeholder="0" />
+                    </div>
+
+                    <div class="field-group">
+                        <label for="num2">Number 2</label>
+                        <input type="number" id="num2" placeholder="0" />
+                    </div>
+                </div>
+                <button type="button" class="accent" onclick="addNumbers()">Add</button>
+                <p id="result" aria-live="polite">Your result will appear here.</p>
+            </section>
+        </main>
+    </body>
+</html>
